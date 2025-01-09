@@ -398,8 +398,6 @@ You can see the demo on `content/blog/notes-image.md` or [on this page](/blog/im
 ### Video
 ---
 
-{% videos "https://www.youtube.com/embed/Q3t5lzvpBdE" , "title of your video" %}
-
 If you need to embed a video then you can use the following shortcode.
 
 ```
