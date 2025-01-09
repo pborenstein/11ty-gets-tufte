@@ -47,7 +47,7 @@ html,body {
     background-color: #151515;
     color: white;
     font-size: 15px;
-    font-family: "Gill Sans", "Gill-Sans" arial,san-serif;
+    font-family: "Gill Sans", arial,san-serif;
 }
 
 main {
@@ -286,7 +286,7 @@ table.fullwidth {
 
 div.table-wrapper {
     overflow-x: auto;
-    font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif;
+    font-family: "Gill Sans", "Trebuchet MS", "Gill Sans MT", sans-serif;
 }
 
 .sans {
