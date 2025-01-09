@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import url('/css/gill-sans-2.css'); 
-
 @font-face {
   font-family: "et-book";
   src: url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
@@ -26,7 +25,11 @@
 }
 
 /* Tufte CSS styles */
-html,body {
+body {
+    width: 87.5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 8.5%;
     background-color: #151515;
     color: white;
     font-size: 15px;
@@ -88,7 +91,6 @@ p.subtitle {
 }
 
 .numeral {
-    font-family: et-book-roman-old-style;
 }
 
 .danger {
@@ -237,7 +239,6 @@ img {
 
 .sidenote-number:after,
 .sidenote:before {
-    font-family: et-book-roman-old-style;
     position: relative;
     vertical-align: baseline;
 }
@@ -261,7 +262,7 @@ blockquote .marginnote {
     min-width: 59%;
     text-align: left;
 }
-
+.fullwidth
 div.fullwidth,
 table.fullwidth {
     width: 100%;
@@ -502,8 +503,16 @@ padding:5px;
 .pt-5 {padding-top:12px;}
 .pt-3 {padding-top:5px;}
 .taptoc {padding:15px;}
+.red {color:red;}
+.text-center {text-align:center;}
+.text-small {font-size:13px;}
+.text-pinky {color: #E72257;}
+.taptoc ul,ul.taptoc {font-size:16px;}
+li.pagefind-ui__result , p.pagefind-ui__result-title {color:white;}
+
+@media only screen and (min-width: 600px) {
 .navbar {
-margin-left:-54px;
+margin-left:-62px;
 margin-top:12px;
 position: fixed;
 background: rgba(21, 21, 21, 0.6);
@@ -513,9 +522,18 @@ backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(21, 21, 21, 0.3);
 }
-.red {color:red;}
-.text-center {text-align:center;}
-.text-small {font-size:13px;}
-.text-pinky {color: #E72257;}
-.taptoc ul,ul.taptoc {font-size:16px;}
-li.pagefind-ui__result , p.pagefind-ui__result-title {color:white;}
+}
+
+@media only screen and (max-width: 600px) {
+.navbar {
+margin-left:-42px;
+margin-top:12px;
+position: fixed;
+background: rgba(21, 21, 21, 0.6);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(21, 21, 21, 0.3);
+}
+}

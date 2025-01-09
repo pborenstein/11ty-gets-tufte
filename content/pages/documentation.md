@@ -125,6 +125,34 @@ HTML Code look like this
 You can see the demo on `content/blog/epigraph.md` or [on this page](/blog/epigraph)
 
 ---
+### Epigraph with URL Link
+---
+
+{% epigraphlink "The English language . . . becomes ugly and inaccurate because our thoughts are foolish, but the slovenliness of our language makes it easier for us to have foolish thoughts." , "George Orwell, 'Politics and the English Language'" , "Click Me" , "https://adamdjbrett.com"%}
+
+To create epigraph, you need to use a shortcode ,to make you can simply paste into your markdown article.
+
+Implementation example for epigraph:
+
+```
+ epigraphlink "Hello this is content area" , "And this is footer area" , "Text for URL" , "http://example.com"
+```
+
+Information:
++ `Hello this is content area` Write your content on this area.
++ `And this is footer area` this footnote area.
++ `Text for URL` this text URL area.
++ `http://example.com` insert domain url.
+
+HTML Code look like this
+
+```
+{% epigraphlink "The English language . . . becomes ugly and inaccurate because our thoughts are foolish, but the slovenliness of our language makes it easier for us to have foolish thoughts." , "George Orwell, 'Politics and the English Language'" , "Click Me" , "https://adamdjbrett.com"%}
+```
+
+You can see the demo on `content/blog/epigraph-link.md` or [on this page](/blog/epigraph-link)
+
+---
 ### Blockquote
 ---
 
@@ -140,7 +168,7 @@ Implementation example for blockquote:
 
 Information:
 + `Hello this is content area` Write your content on this area.
-+ `And this is footer area` this foote area.
++ `And this is footer area` this footer area.
 
 HTML Code look like this
 
@@ -149,6 +177,34 @@ HTML Code look like this
 ```
 
 You can see the demo on `content/blog/blockquote.md` or [on this page](/blog/blockquote)
+
+---
+### Blockquote with URL Link
+---
+
+{% blockquotelink "The English language . . . becomes ugly and inaccurate because our thoughts are foolish, but the slovenliness of our language makes it easier for us to have foolish thoughts." , "George Orwell, 'Politics and the English Language'" , "Click Me" , "https://adamdjbrett.com"%}
+
+To create blockquote with URL Link, you need to use a shortcode ,to make you can simply paste into your markdown article.
+
+Implementation example for blockquote with link:
+
+```
+ blockquotelink "Hello this is content area" , "And this is footer area" , "Text url link info" , "https://example.com"
+```
+
+Information:
++ `Hello this is content area` Write your content on this area.
++ `And this is footer area` this footer area.
++ `Text url link info` this text url link information area.
++ `And this is footer area` url link in here.
+
+HTML Code look like this
+
+```
+{% blockquotelink "The English language . . . becomes ugly and inaccurate because our thoughts are foolish, but the slovenliness of our language makes it easier for us to have foolish thoughts." , "George Orwell, 'Politics and the English Language'" , "Click Me" , "https://adamdjbrett.com"%}
+```
+
+You can see the demo on `content/blog/blockquote-link.md` or [on this page](/blog/blockquote-link)
 
 ---
 ### Notes
@@ -207,6 +263,69 @@ HTML Code
 ```
 
 You can see the demo on `content/blog/side-notes-example.md` or [on this page](/blog/side-notes-example)
+
+---
+### Side Notes Internal Link
+---
+
+{% sidenoteinternal "1ab","Title Side Notes Internal Link" ,"Side Notes Internal Link Information", "This is a example content article for your side notes internal link features." %}
+
+To create sidenotes internal link with id link same like table of content, you need to use a shortcode that you can simply paste into your markdown article.
+
+Implementation example for sidenotes with internal link:
+
+```
+sidenoteinternal "1bas","Title" ,"Side Notes Info", "Content in here.." 
+```
+
+Information: 
++ `1b` is your id you can fill in the id there.
++ `Title` this is the title for your side notes.
++ `Side Notes Info` this is the title for your side notes info on the right side.
++ `Content in here..` this is the content of your sidenotes article.
+
+PS: Do not use the same ID's in one article
+
+HTML Code
+
+```
+{% sidenoteinternal "1ab","Title Side Notes" ,"Side Notes Information", "This is a example content article for your side notes features." %}
+```
+
+You can see the demo on `content/blog/side-notes-internal.md` or [on this page](/blog/side-notes-internal)
+
+
+---
+### Side Notes External Link
+---
+
+{% sidenoteexternal "1db","Title Side Notes External Link" ,"Side Notes External Link Information", "This is a example content article for your side notes External link features." , "Click me to external link" , "https://youtube.com"%}
+
+To create sidenotes external link , you need to use a shortcode that you can simply paste into your markdown article.
+
+Implementation example for sidenotes with external link:
+
+```
+sidenoteexternal "1dcs","Title" ,"Side Notes Info", "Content in here.." , "Text for url" , "https://www.example.com" 
+```
+
+Information: 
++ `1b` is your id you can fill in the id there.
++ `Title` this is the title for your side notes.
++ `Side Notes Info` this is the title for your side notes info on the right side.
++ `Content in here..` this is the content of your sidenotes article.
++ `Text for url` Text for url link example click me
++ `https://www.example.com` your url link
+
+PS: Do not use the same ID's in one article
+
+HTML Code
+
+```
+{% sidenoteexternal "1db","Title Side Notes External Link" ,"Side Notes External Link Information", "This is a example content article for your side notes External link features." , "Click me to external link" , "https://youtube.com"%}
+```
+
+You can see the demo on `content/blog/side-notes-external.md` or [on this page](/blog/side-notes-external)
 
 ---
 ### Notes with Image
@@ -278,8 +397,6 @@ You can see the demo on `content/blog/notes-image.md` or [on this page](/blog/im
 ---
 ### Video
 ---
-
-{% videos "https://www.youtube.com/embed/Q3t5lzvpBdE" , "title of your video" %}
 
 If you need to embed a video then you can use the following shortcode.
 
