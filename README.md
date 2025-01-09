@@ -12,11 +12,11 @@ Develope by [Adam Dj Brett](https://adamdjbrett.com)
 
 Mobile Target Test
 
-![Gets Tufte 11ty Mobile](mobile.jpeg)
+![Gets Tufte 11ty Mobile](mobile.png)
 
 Desktop Target Test
 
-![Gets Tufte 11ty Desktop](desktop.jpeg)
+![Gets Tufte 11ty Desktop](desktop.png)
 
 ---
 
