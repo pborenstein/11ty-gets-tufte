@@ -1,7 +1,7 @@
 export default {
-	title: "Gets Tufte 11ty",
-	description: "A Tufte CSS Project built with 11ty aka Eleventy for your projects - develop by Adam Dj Brett. ",
-	url: "http://localhost:8080",
+	title: "11ty Gets Tufte",
+	description: "A Tufte CSS Project built with 11ty aka Eleventy for your projects",
+	url: "000000076.xyz",
 	language: "en",
 	locale: "en_US",
 	image: "/img/possum.avif",
@@ -16,7 +16,7 @@ export default {
                     url: "/about/"
                 },
                 {
-                    nav: "Get Start",
+                    nav: "Get Started",
                     url: "/doc/"
                 },
                 {
