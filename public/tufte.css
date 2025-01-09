@@ -1,5 +1,10 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family: "Gill-Sans";
+    src: url("css/Gill-Sans.otf")  format("opentype");;
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
     font-family: "et-book";
     src: url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
@@ -41,7 +46,7 @@ html,body {
     background-color: #151515;
     color: white;
     font-size: 15px;
-    font-family: "Gill Sans" arial,san-serif;
+    font-family: "Gill Sans", "Gill-Sans" arial,san-serif;
 }
 
 main {
