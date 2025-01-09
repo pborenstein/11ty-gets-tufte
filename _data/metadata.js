@@ -1,11 +1,11 @@
 export default {
 	title: "11ty Gets Tufte",
 	description: "A Tufte CSS Project built with 11ty aka Eleventy for your projects",
-	url: "http://localhost:8080",
+	url: "https://tufte.000000076.xyz/",
 	language: "en",
 	locale: "en_US",
-	image: "/img/possum.avif",
-	favicon: "/img/possum.avif",
+	image: "/img/orange.svg",
+	favicon: "/img/orange.svg",
 	navbar: [
                 {
                     nav: "Home",
@@ -29,7 +29,7 @@ export default {
                 }
     ],
 	metasocial: {
-		image: "/img/possum.avif",
+		image: "/img/orange.svg",
 		facebook: "https://www.facebook.com/adamdjbrett/",
 		twitteruser: "@__adjb",
 		twitter: "https://x.com/__adjb"

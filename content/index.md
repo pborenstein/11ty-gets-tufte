@@ -1,16 +1,20 @@
 ---
-title: Gets Tufte 11ty
-description: A Tufte CSS Project built with 11ty aka Eleventy for your projects - develop by Adam DJ Brett. 
+title: 11ty gets tufte
+description: A Tufte CSS Project built with 11ty aka Eleventy for your projects. 
 ---
-Hi and welcome in to Gets Tufte 11ty project.
+Hi and welcome in to 11ty gets tufte project.
 
-{% notesimage "2s", "/img/11ty.webp" , "gets tufte 11t" , "Gets Tufte 11ty - Free and open source code"%}
+{% notesimage "2s", "/img/11ty-gets-tufte.svg" , "11ty gets tufte" , "11ty gets tufte - Free and open source code"%}
 
-Free and open source code ,This project is develop by [Adam DJ Brett](https://www.adamdjbrett.com) to help you build a book site easily and quickly!!
+An 11ty project based on the work of [Edward Tufte](https://edwardtufte.com). This 11ty project uses [tufte-css](https://github.com/edwardtufte/tufte-css) and [et-book, a web typeface of the font used in Edward Tufte's books](https://github.com/edwardtufte/et-book). The failover font is Gil Sans which is also a prefered font of Edward Tufte. Thank you Dave Liepman the creator of `tufte.css` and to all of the contributors to [Tufte-CSS](https://github.com/edwardtufte/tufte-css). 
 
-Tufte’s CSS style is known for its simplicity, extensive use of sidenotes, tight integration of graphics with text, and carefully chosen typography.
+* * *
 
-Clone / Fork this Projects 
+This 11ty port is maintained and developed by [Adam DJ Brett](https://www.adamdjbrett.com) to help you build a book site easily and quickly!!!
+
+I admire not only Tufte's work but also `tufte.css` because of their simplicity, sidenotes, typography, and  multiple types of images that can be used.
+
+**Clone / Fork this Project**
 
 `git clone https://github.com/adamdjbrett/11ty-gets-tufte.git`
 
