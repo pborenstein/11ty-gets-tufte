@@ -6,7 +6,7 @@ permalink: /about/
 
 ### About Gets Tufte 11ty
 
-A project develop by [Adam Dj Brett](https://adamdjbrett.com) to help you built books site quickly and easy !!
+A project develop by [Adam DJ Brett](https://adamdjbrett.com) to help you built books site quickly and easy !!
 
 {% notesimage "2s", "/img/11ty.webp" , "gets tufte 11ty" , "Free and Open Source Code Projects"%}
 

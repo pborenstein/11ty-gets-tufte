@@ -4,7 +4,7 @@
 
 Minimalist Themes for your books site with Gets Tufte 11ty Projects.
 
-Develope by [Adam Dj Brett](https://adamdjbrett.com)
+Develope by [Adam DJ Brett](https://adamdjbrett.com)
 
 [Follow on Github](https://github.com/adamdjbrett)
 
@@ -20,7 +20,7 @@ Desktop Target Test
 
 ---
 
-Develope by [Adam Dj Brett](https://adamdjbrett.com)
+Develope by [Adam DJ Brett](https://adamdjbrett.com)
 
 [Follow on Github](https://github.com/adamdjbrett)
 

@@ -1,7 +1,7 @@
 {
 	"name": "11ty-gets-tufte",
 	"version": "1.0.1",
-	"description": "A tufte for 11ty Eleventy projects.",
+	"description": "A tufte-css for 11ty Eleventy projects.",
 	"type": "module",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
@@ -18,7 +18,7 @@
 		"url": "git://github.com/adamdjbrett/11ty-gets-tufte.git"
 	},
 	"author": {
-		"name": "Adam Dj Brett",
+		"name": "Adam DJ Brett",
 		"email": "info@adamdjbrett.com",
 		"url": "https://adamdjbrett.com/"
 	},

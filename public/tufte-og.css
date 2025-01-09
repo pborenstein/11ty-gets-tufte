@@ -1,50 +1,72 @@
 @charset "UTF-8";
-@import url('/css/gill-sans-2.css'); 
+
+/* Import ET Book styles
+   adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */
 
 @font-face {
-  font-family: "et-book";
-  src: url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
-  src: url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
-  font-weight: normal;
-  font-style: normal
+    font-family: "et-book";
+    src: url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
+    src: url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "et-book";
-  src: url("/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
-  src: url("/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("/fonts/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg");
-  font-weight: normal;
-  font-style: italic
+    font-family: "et-book";
+    src: url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot");
+    src: url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff") format("woff"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf") format("truetype"), url("et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: "et-book";
-  src: url("/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
-  src: url("/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("/fonts/et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
-  font-weight: bold;
-  font-style: normal
+    font-family: "et-book";
+    src: url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot");
+    src: url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "et-book-roman-old-style";
+    src: url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot");
+    src: url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix") format("embedded-opentype"), url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff") format("woff"), url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf") format("truetype"), url("et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 /* Tufte CSS styles */
-html,body {
-    background-color: #151515;
-    color: white;
+html {
     font-size: 15px;
-    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
 
-main {
+body {
+    width: 87.5%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #151515;
-    color: white;
+    padding-left: 12.5%;
+    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    background-color: #fffff8;
+    color: #111;
+    max-width: 1400px;
     counter-reset: sidenote-counter;
 }
 
+/* Adds dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #151515;
+        color: #ddd;
+    }
+}
 
 h1 {
     font-weight: 400;
-    margin-top: 1rem;
+    margin-top: 4rem;
     margin-bottom: 1.5rem;
     font-size: 3.2rem;
     line-height: 1;
@@ -269,7 +291,7 @@ table.fullwidth {
 
 div.table-wrapper {
     overflow-x: auto;
-    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif;
 }
 
 .sans {
@@ -278,7 +300,7 @@ div.table-wrapper {
 }
 
 code, pre > code {
-    font-family: Courier, Consolas, "Liberation Mono", Menlo, monospace;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 1.0rem;
     line-height: 1.42;
     -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS. See https://github.com/edwardtufte/tufte-css/issues/81#issuecomment-261953409 */
@@ -336,8 +358,8 @@ label.margin-toggle:not(.sidenote-number) {
 
 .iframe-wrapper {
     position: relative;
-    padding-bottom: 480px; /* 16:9 */
-    padding-top: 10px;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
     height: 0;
 }
 
@@ -346,7 +368,7 @@ label.margin-toggle:not(.sidenote-number) {
     top: 0;
     left: 0;
     width: 100%;
-    height: 460px;
+    height: 100%;
 }
 
 @media (max-width: 760px) {
@@ -427,95 +449,3 @@ label.margin-toggle:not(.sidenote-number) {
         width: 100%;
     }
 }
-
-button,.btn {border:none;}
-.black {
-background-color: #151515;
-color: white;
-}
-.dropbtn {
-  background-color: #151515;
-  color: #EFEFF0;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #151515;
-  min-width: 160px;
-text-align: center;
-border-radius: 16px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-border-radius: 16px;
-  text-decoration: none;
-text-align: center;
-  display: block;
-}
-
-.dropdown-content a:hover {
-background: rgba(235, 230, 230, 0.6);
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border-radius: 16px;
-border: 1px solid rgba(235, 230, 230, 0.3);
-}
-.dropdown:hover .dropdown-content {display: block; color: #151515; margin-left: 27px; margin-top:-38px;
-background: rgba(21, 21, 21, 0.8);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(21, 21, 21, 0.3);
-}
-.buttonis-nav {
-background-color: #E72257;
-color: #151515;
-border-radius: 50px;
-padding:5px;
-margin-bottom: 15px;
-}
-button,btn,.buttonis {
-background-color: #E72257;
-color: #151515;
-border-radius: 5px;
-padding:5px;
-}
-.buttonis-nav:hover, .buttonis:hover {background-color:#BE234D;color: white;}
-.no-deco {text-decoration: none;}
-.py-5 {padding-left: 15px; padding-right:15px;}
-.me-5 {margin-left:15px;}
-.pt-5 {padding-top:12px;}
-.pt-3 {padding-top:5px;}
-.taptoc {padding:15px;}
-.navbar {
-margin-left:-54px;
-margin-top:12px;
-position: fixed;
-background: rgba(21, 21, 21, 0.6);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(21, 21, 21, 0.3);
-}
-.red {color:red;}
-.text-center {text-align:center;}
-.text-small {font-size:13px;}
-.text-pinky {color: #E72257;}
-.taptoc ul,ul.taptoc {font-size:16px;}
-li.pagefind-ui__result , p.pagefind-ui__result-title {color:white;}

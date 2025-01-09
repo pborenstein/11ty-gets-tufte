@@ -114,7 +114,7 @@ Implementation example for epigraph:
 
 Information:
 + `Hello this is content area` Write your content on this area.
-+ `And this is footer area` this foote area.
++ `And this is footer area` this footnote area.
 
 HTML Code look like this
 
@@ -212,7 +212,7 @@ You can see the demo on `content/blog/side-notes-example.md` or [on this page](/
 ### Notes with Image
 ---
 
-{% notesimage "2s", "https://1.bp.blogspot.com/-Q7aQs80Ze3k/YLb6AT7FiQI/AAAAAAAAOVs/-UEKIULcNVgp6Fs13N41yiR_TzJ4bLfogCLcBGAsYHQ/s960/12743522_10205790406660324_5012248319378927197_n.jpg" , "alt of image" , "This is example notes with images "%}
+{% notesimage "2s", "/img/090-Subatomic Particles.png" , "alt of image" , "This is example of Sub atomic particles via image quilt via http://imagequilts.com/ "%}
 
 To create notes with images, you can use the shortcode as below, and paste it into your markdown article.
 
@@ -240,7 +240,9 @@ You can see the demo on `content/blog/notes-image.md` or [on this page](/blog/no
 ### Standard Image
 ---
 
-![standard image](https://1.bp.blogspot.com/-G6Ig3TDAMU4/YLcDxzISnoI/AAAAAAAAOXA/-IH8DX9esVUSvQzqP0vZpUr6tkSjClYggCLcBGAsYHQ/s960/13406805_10206589188349367_938707191884813742_n.jpg)
+![George Vantongerloo via image quilt](/img/vantongerloo-2.png)
+
+*George Vantongerloo via image quilt http://imagequilts.com/*
 
 To use standard images, you can insert the normal image format into the article markdown. An example is as follows:
 
@@ -252,7 +254,7 @@ You can see the demo on `content/blog/image-and-fullimage.md` or [on this page](
 ### Full Image
 ---
 
-{% fullimage "https://1.bp.blogspot.com/-HCNazywWFPM/YLcDueKRjDI/AAAAAAAAOWU/9s5Zx8e9ySQZwaktdSxRfqK07qpPHuDdQCLcBGAsYHQ/s960/11130160_10203968824241902_1704446697852246306_n%2B-%2BCopy.jpg", "full image" %}
+{% fullimage "/img/vantongerloo-2.png", "full image" %}
 
 If you want to use a full image, you can use a shortcode with the following format:
 
@@ -286,7 +288,7 @@ videos "https://www.youtube.com/embed/hJGaMGmuZEc" , "title of your video"
 ```
 
 Information:
-+ `https://www.youtube.com/embed/hJGaMGmuZEc` enter your video URL in this area.
++ `https://example.com` enter your video URL in this area.
 + `title of your video` this is for your video title.
 
 HTML Code
@@ -312,7 +314,7 @@ If you want to deploy your site you can run build production command in to your 
 
 If you need help or want to consult about your project, don't hesitate to contact me.
 
-Developer : [Adam Dj Brett](https://adamdjbrett.com)
+Developer : [Adam DJ Brett](https://adamdjbrett.com)
 Website: [www.adamdjbrett.com](https://adamdjbrett.com)
 Email: [info@adamdjbrett.com](mailto:info@adamdjbrett.com)
 
