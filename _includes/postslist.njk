@@ -1,0 +1,8 @@
+<ul>
+{% for post in postslist | reverse %}
+<li>
+<h3><a href="{{ post.url }}" class="postlist-link">{{ post.data.title }}</a></h3>
+<p>{{post.data.description}}</p>
+</li>
+{% endfor %}
+</ul>

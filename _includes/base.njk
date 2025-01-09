@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+<head>
+{% include "partials/seo.njk" %}
+</head>
+<body>
+<main class="fullwidth">
+{{content | safe}}
+</main>
+{% include "partials/footer.njk" %}
+<script type="module" src="{% getBundleFileUrl "js" %}"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+---
+layout: home.njk
+---
+<p><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time><br/>
+{%- for tag in tags | filterTagList %}
+{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+<span class="text-small text-pinky"><a href="{{ tagUrl }}">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</span>
+{%- endfor %}
+</p>
+{{ content | safe }}
+
+
