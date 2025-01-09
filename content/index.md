@@ -14,6 +14,6 @@ Clone / Fork this Projects
 
 `git clone https://github.com/adamdjbrett/11ty-gets-tufte.git`
 
-[Download Now](https://github.com/adamdjbrett/11ty-gets-tufte/archive/refs/heads/main.zip) or [Get Started](/doc/)
+[Download Now](https://github.com/adamdjbrett/11ty-gets-tufte/) or [Get Started](/doc/)
 
 
