@@ -434,54 +434,78 @@ button,.btn {border:none;}
 background-color: #151515;
 color: white;
 }
-.dropbtn {
-  background-color: #151515;
-  color: #EFEFF0;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+  .hamburger {
+    cursor: pointer;
+    list-style: none;
+    float: right;
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+  }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #151515;
-  min-width: 160px;
+  .bar1, .bar2,.bar3 {
+    width: 16px;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 5px;
+  }
+
+  .dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropbtn:hover,
+  .dropbtn:focus {
+    background-color: #BE234D;
+  }
+
+  .dropdown {
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color: black;
+    min-width: 160px;
+    overflow: auto;
+    opacity: 0.8;
+    border-radius: 16px;
+    color:white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown a:hover {
+    background-color: #BE234D;
+  }
+
+  .show {
+    display: block;
+  }
+.rounder {border-radius: 16px;}
+.navi-btn {background-color:#E72257; border-radius:50px;}
+.navis-btn {
+border-radius:50px;
+background-color: #E72257;
+padding: auto;
 text-align: center;
-border-radius: 16px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-border-radius: 16px;
-  text-decoration: none;
-text-align: center;
-  display: block;
-}
-
-.dropdown-content a:hover {
-background: rgba(235, 230, 230, 0.6);
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border-radius: 16px;
-border: 1px solid rgba(235, 230, 230, 0.3);
-}
-.dropdown:hover .dropdown-content {display: block; color: #151515; margin-left: 27px; margin-top:-38px;
-background: rgba(21, 21, 21, 0.8);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(21, 21, 21, 0.3);
+justify-content: center;
+align-items: center;
 }
 .buttonis-nav {
 background-color: #E72257;
@@ -496,23 +520,25 @@ color: #151515;
 border-radius: 5px;
 padding:5px;
 }
-.buttonis-nav:hover, .buttonis:hover {background-color:#BE234D;color: white;}
+.buttonis-nav:hover, .buttonis:hover ,.navi-btn:hover,.navis-btn:hover {background-color:#BE234D;color: white;}
 .no-deco {text-decoration: none;}
 .py-5 {padding-left: 15px; padding-right:15px;}
 .me-5 {margin-left:15px;}
 .pt-5 {padding-top:12px;}
 .pt-3 {padding-top:5px;}
-.taptoc {padding:15px;}
+.pt-30 {margin-top:50px;}
+.taptoc {padding:15px; font-size:22px;}
 .red {color:red;}
 .text-center {text-align:center;}
 .text-small {font-size:13px;}
+.mt-5 {margin-top: 35px;}
 .text-pinky {color: #E72257;}
 .taptoc ul,ul.taptoc {font-size:16px;}
 li.pagefind-ui__result , p.pagefind-ui__result-title {color:white;}
 
 @media only screen and (min-width: 600px) {
 .navbar {
-margin-left:-62px;
+margin-left:-182px;
 margin-top:12px;
 position: fixed;
 background: rgba(21, 21, 21, 0.6);
