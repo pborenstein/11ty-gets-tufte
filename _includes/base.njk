@@ -4,12 +4,8 @@
 {% include "partials/seo.njk" %}
 </head>
 <body>
- <a href="#maincontent" class="skip-link" 
-       role="link" 
-       aria-label="Skip directly to main content">
-       Skip to Main Content
-      </a>
-<main class="fullwidth" id="maincontent">
+<a href="#skip" class="visually-hidden"></a>
+<main class="fullwidth" id="skip">
 {{content | safe}}
 </main>
 {% include "partials/footer.njk" %}
