@@ -439,7 +439,7 @@ color: white;
     cursor: pointer;
     list-style: none;
     float: right;
-    padding: 20px;
+    padding: 10px;
     position: relative;
     display: inline-block;
   }
@@ -527,7 +527,8 @@ padding:5px;
 .pt-5 {padding-top:12px;}
 .pt-3 {padding-top:5px;}
 .pt-30 {margin-top:50px;}
-.taptoc {padding:15px; font-size:22px;}
+.p-10 {padding:10px;}
+.taptoc {padding:8px; font-size:16px; margin:auto;}
 .red {color:red;}
 .text-center {text-align:center;}
 .text-small {font-size:13px;}
@@ -536,9 +537,9 @@ padding:5px;
 .taptoc ul,ul.taptoc {font-size:16px;}
 li.pagefind-ui__result , p.pagefind-ui__result-title {color:white;}
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 400px) and (max-width: 600px){
 .navbar {
-margin-left:-182px;
+margin-left:-47px;
 margin-top:12px;
 position: fixed;
 background: rgba(21, 21, 21, 0.6);
@@ -550,9 +551,38 @@ border: 1px solid rgba(21, 21, 21, 0.3);
 }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
 .navbar {
-margin-left:-42px;
+margin-left:-62px;
+margin-top:12px;
+position: fixed;
+background: rgba(21, 21, 21, 0.6);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(21, 21, 21, 0.3);
+}
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+.navbar {
+margin-left:-122px;
+margin-top:12px;
+position: fixed;
+background: rgba(21, 21, 21, 0.6);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(21, 21, 21, 0.3);
+}
+}
+
+@media only screen and (min-width: 1400px){
+.navbar {
+margin-left:-202px;
 margin-top:12px;
 position: fixed;
 background: rgba(21, 21, 21, 0.6);
