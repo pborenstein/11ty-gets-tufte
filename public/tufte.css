@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('/css/gill-sans-2.css'); 
 @font-face {
   font-family: "et-book";
   src: url("/fonts/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
@@ -24,6 +23,7 @@
   font-style: normal
 }
 
+/* Customization */
 .visually-hidden {
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
@@ -33,6 +33,24 @@
 	white-space: nowrap;
 	width: 1px;
 }
+
+.skip-link {
+    background: #000000;
+    height: 30px;
+    left: 50%;
+    padding: 8px;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+
+}
+
+.skip-link:focus {
+    transform: translateY(0%);
+
+}
+
+
 /* Tufte CSS styles */
 body {
     width: 87.5%;
@@ -42,7 +60,7 @@ body {
     background-color: #151515;
     color: white;
     font-size: 15px;
-    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-family: et-book, "Gill Sans Nova", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 }
 
 main {
@@ -279,11 +297,11 @@ table.fullwidth {
 
 div.table-wrapper {
     overflow-x: auto;
-    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", "Gill Sans Nova", "Trebuchet MS", sans-serif;
 }
 
 .sans {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", "Gill Sans Nova", Calibri, sans-serif;
     letter-spacing: .03em;
 }
 
