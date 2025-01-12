@@ -1,10 +1,11 @@
 # 11ty-Gets-Tufte
+Bringing [tufte.css](https://github.com/edwardtufte/tufte-css) to [11ty](https://11ty.dev)
 
 ![Gets Tufte 11ty](getstufte11ty.jpeg)
 
 Minimalist Themes for your books site with Gets Tufte 11ty Projects.
 
-Develope by [Adam DJ Brett](https://adamdjbrett.com)
+Developed by [Adam DJ Brett](https://adamdjbrett.com)
 
 [Follow on Github](https://github.com/adamdjbrett)
 
@@ -20,7 +21,7 @@ Desktop Target Test
 
 ---
 
-Develope by [Adam DJ Brett](https://adamdjbrett.com)
+Developed by [Adam DJ Brett](https://adamdjbrett.com)
 
 [Follow on Github](https://github.com/adamdjbrett)
 
